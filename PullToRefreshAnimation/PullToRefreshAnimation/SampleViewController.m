@@ -69,7 +69,7 @@
         NSLog(@"fraction dragged: %f", fractionDragged);
         
         // Remember the timeOffset property name is pretty much useless normally,
-        // but here we set it to 0 initially to "pause" it, and now we modify it
+        // but here we set the layer's speed property to 0 initially to "pause" it, and now we modify timeOffset
         // to fast forward and increase the progress of the animation.
         
         // We use the MIN function to control the flow, it's either going to be
